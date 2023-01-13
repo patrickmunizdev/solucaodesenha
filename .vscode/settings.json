@@ -1,0 +1,10 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "files.eol": "\n",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,  
+        "editor.formatOnSave": true,
+    }
+}

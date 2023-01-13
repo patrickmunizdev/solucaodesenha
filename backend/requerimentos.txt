@@ -1,0 +1,17 @@
+Django==4.*
+python-dotenv==0.21.*
+djangorestframework==3.14.*
+django-celery-beat==2.4.*
+django-cors-headers==3.13.*
+drf-extensions==0.7.*
+drf-yasg==1.21.*
+markdown==3.4.*
+requests==2.28.*
+notebook==6.5.*
+django-extensions==3.2.*
+psycopg2==2.9.*
+flake8==6.0.*
+uwsgi==2.0.* 
+celery[redis]==5.2.*
+djangorestframework_simplejwt==5.2.*
+black==22.12.0
