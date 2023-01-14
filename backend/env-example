@@ -1,0 +1,5 @@
+DATABASE_NAME=solucaodesenha
+USER_DB=postgres
+USER_PASSWORD=megasenhadificil
+HOST_DB=127.0.0.1
+SECRET_KEY=django-insecure-29p12#o6)u4vy-ehl0*klv=2*#51rsiat#r=l#bjsov1@_0mh(
