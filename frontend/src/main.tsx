@@ -1,22 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-import Dashboard from './pages/dashboard';
-import UserList from './pages/users/index';
-import './styles/global.css';
+import { GlobalStyle } from './styles/global'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <Routes>
-        {/*TELAS INICIAIS*/}
-        {/* <Route path="/" element={<Login/>}/> */}
-        <Route path="/dashboard" element={<Dashboard/>}/>
-        
-        {/*USERS*/}
-        <Route path="/users" element={<UserList/>}/>
-      </Routes>
-    </React.StrictMode>
-  </BrowserRouter>
+   <React.StrictMode>
+      <GlobalStyle />
+      <App />
+   </React.StrictMode>,
 )
