@@ -1,5 +1,5 @@
-import { Container } from './styles'
 import { useNavigate } from 'react-router-dom';
+import { Container } from './styles';
 
 const Login = () => {
    const navigate = useNavigate();
