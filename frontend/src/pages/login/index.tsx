@@ -1,12 +1,26 @@
 import { useNavigate } from 'react-router-dom';
-import { Container } from './styles';
+import { Input } from '../../components/Input';
+import { ContainerLogin, FormLogin, TitleLogin } from './styles';
 
-const Login = () => {
+const Login = ({ IFormData }: any) => {
    const navigate = useNavigate();
-   return (<>
-      <Container />
-      <div>Aqui é o login</div>
-
-   </>)
+   return (
+      <>
+         <ContainerLogin>
+            <FormLogin>
+               <div>
+                  <TitleLogin>SGA</TitleLogin>
+               </div>
+               <div>
+                  <Input />
+               </div>
+               <div>
+                  <Input />
+               </div>
+            </FormLogin>
+         </ContainerLogin>
+      </>
+   )
 }
 export { Login };
+
